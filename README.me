@@ -1,0 +1,77 @@
+# Dashboard Projekt
+
+## Projektbeschreibung
+
+Dieses Projekt beinhaltet die Entwicklung eines Dashboards zur Verfolgung des Studienfortschritts. Das Dashboard ermöglicht es dem Benutzer, den Notenschnitt, Lernfortschritt und andere relevante Daten in einer grafischen Benutzeroberfläche zu verwalten und anzuzeigen.
+
+### Hauptfunktionen:
+- **Studienfortschritt**: Anzeige des Fortschritts basierend auf ECTS-Punkten.
+- **Notenschnitt**: Berechnung und Anzeige des Notenschnitts.
+- **Lernverlauf**: Darstellung des Lernverhaltens über Wochen hinweg.
+
+## Installation
+### Installation der benötigten Bibliotheken
+
+1. Überprüfe, ob Python installiert ist:
+
+    ```bash
+    python --version
+    ```
+
+2. Installiere die benötigten Bibliotheken:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Nutzung
+
+Starte das Dashboard mit dem folgenden Befehl:
+
+```bash
+python dashboard.py
+
+---
+
+Erläutere dem Benutzer, wie er das Dashboard verwenden kann, nachdem es installiert wurde.
+
+```markdown
+## Nutzung
+
+Sobald du das Dashboard gestartet hast, öffnet sich das Fenster mit den folgenden Funktionalitäten:
+
+### Eingabefelder:
+1. **Benutzerdaten**:
+   - **Benutzername**, **Passwort**, **Semester Startdatum** und **Semester Enddatum** müssen eingetragen werden.
+   - Diese Eingaben sind erforderlich, um den Benutzer zu identifizieren und den Studienverlauf zu berechnen.
+
+2. **Studienfortschritt anzeigen**:
+   - Gib die **erreichten ECTS** ein. Der Fortschritt wird dann automatisch in **Prozent** angezeigt.
+
+3. **Notenschnitt berechnen**:
+   - Gib deine **Noten** in die vorgesehenen Felder ein. Der Notenschnitt wird automatisch berechnet.
+
+4. **Lernverlauf anzeigen**:
+   - Gib die **Lernstunden** ein, und der Verlauf wird in einem **Liniendiagramm** angezeigt.
+
+### Buttons:
+- **Speichern**: Speichert die eingegebenen Daten und zeigt die aktualisierten Werte an (Studienfortschritt, Notenschnitt, Lernverlauf).
+- **Zurücksetzen**: Setzt alle Eingabefelder auf ihre Standardwerte zurück.
+
+### Beispiel:
+1. Gib für den **Notenschnitt** die Noten `2.0`, `1.5` und `3.0` ein. Der **Notenschnitt** wird automatisch berechnet.
+2. Gib für den **Studienfortschritt** 60 ECTS ein. Der Fortschritt wird mit einer **Progressbar** visualisiert.
+3. Gib für die **Lernstunden** pro Woche Werte wie `6`, `7`, `5` ein. Diese werden in einem **Liniendiagramm** angezeigt.
+
+## Weitere Informationen
+
+- Weitere Details zur Funktionsweise des Dashboards findest du in der [Installationsanleitung](Installationsanleitung.md).
+- Du kannst die **Quellcode-Dateien** nach Belieben anpassen oder erweitern, um zusätzliche Funktionen hinzuzufügen.
+- **Fehlerbehandlung**: Ungültige Eingaben werden durch Fehlermeldungen angezeigt, die den Benutzer darauf hinweisen, die Eingaben zu korrigieren.
+
+### Projekt herunterladen
+
+Du kannst das Projekt entweder als ZIP-Datei von GitHub herunterladen oder es mit Git klonen:
+
+```bash
+git clone <Repository-URL>
